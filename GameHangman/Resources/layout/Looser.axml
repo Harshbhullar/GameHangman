@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#ff1d0fcb">
+	<ImageView
+		android:src="@drawable/Looser"
+		android:layout_width="match_parent"
+		android:layout_height="250dp"
+		android:minWidth="250px"
+		android:minHeight="250px"
+		android:id="@+id/imgView" />
+	
+	<Button
+		android:id="@+id/btnLoserBack"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:text="Back to Main"
+		android:textSize="30dp"
+		
+	/>
+	<Button
+		android:id="@+id/btnLoserExit"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:text="Close the App "
+		android:textSize="30dp"
+		
+	/>
+
+
+</LinearLayout>

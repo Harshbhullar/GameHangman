@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#ff1d0fcb">
+
+	<TextView
+	android:id="@+id/txtHint"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="Enter Your Name"
+	android:gravity="center"
+	android:background="#ff1dcb0f"
+	android:textSize="12dp"
+	/>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		>
+		<TextView
+			android:id="@+id/txtName"
+			android:layout_width="150dp"
+			android:layout_height="40dp"
+			android:gravity="left"
+			android:textSize="12dp"
+			android:textColor="#fff8f0f0"
+			android:background="#ff0f1010"
+			android:text="" />
+	<Button
+		android:id="@+id/btnStore"
+		android:text="submit"
+		android:layout_width="wrap_content"
+		android:layout_height="40dp"
+		android:textSize="12dp"/>
+	</LinearLayout>
+	<TextView
+	android:id="@+id/txtQues"
+	android:text="ques"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:textSize="15dp"/>
+	<TextView
+		android:id="@+id/txtAns"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18dp"
+		android:text=""
+		android:gravity="center"
+		android:textColor="#fff8f0f0"
+		android:background="#ff0f1010"
+		
+	/>
+
+
+	<ImageView
+	android:id="@+id/imageView1"
+	android:layout_width="100dp"
+	android:layout_height="100dp"
+	android:src="@drawable/GuessFailed2"/>
+	
+	<GridLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:columnCount="6"
+		android:rowCount="5"
+		android:scrollbarStyle="outsideOverlay"
+		android:verticalScrollbarPosition="right"
+		android:scrollbars="vertical">
+
+	<Button
+	android:id="@+id/btnA" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="a"
+	android:gravity="center_horizontal"
+	/>
+
+	<Button
+	android:id="@+id/btnb" 
+	android:layout_width="30dp"
+	android:layout_height="40dp"
+	android:text="b"
+	android:gravity="center_horizontal"/>
+
+		
+	<Button
+	android:id="@+id/btnc" 
+	android:layout_width="30dp"
+	android:layout_height="40dp"
+	android:text="c"
+	android:gravity="center_horizontal"/>
+
+		
+	<Button
+	android:id="@+id/btnd" 
+	android:layout_width="30dp"
+	android:layout_height="40dp"
+	android:text="d"
+	android:gravity="center_horizontal"/>
+
+		
+	<Button
+	android:id="@+id/btne" 
+	android:layout_width="30dp"
+	android:layout_height="40dp"
+	android:text="e"
+	android:gravity="center_horizontal"/>
+
+
+		
+	<Button
+	android:id="@+id/btnf" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="f"
+	android:gravity="center_horizontal"/>
+		
+
+	<Button
+	android:id="@+id/btng" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="g"
+	android:gravity="center_horizontal"/>
+
+		
+	<Button
+	android:id="@+id/btnh" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="h"
+	android:gravity="center_horizontal"/>
+
+		
+	<Button
+	android:id="@+id/btni" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="i"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnj" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="j"
+	android:gravity="center_horizontal"/>
+
+		
+	<Button
+	android:id="@+id/btnk" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="k"
+	android:gravity="center_horizontal"/>
+
+		
+	<Button
+	android:id="@+id/btnl" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="l"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnm" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="m"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnn" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="n"
+	android:gravity="center_horizontal"/>
+
+		
+	<Button
+	android:id="@+id/btno" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="o"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnp" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="p"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnq" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="q"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnr" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="r"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btns" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="s"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnt" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="t"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnu" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="u"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnv" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="v"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnw" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="w"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnx" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="x"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btny" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="y"
+	android:gravity="center_horizontal"/>
+		
+	<Button
+	android:id="@+id/btnz" 
+	android:layout_width="40dp"
+	android:layout_height="40dp"
+	android:text="z"
+	android:gravity="center_horizontal"/>
+
+	</GridLayout>
+	
+</LinearLayout>
